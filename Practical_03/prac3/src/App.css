@@ -1,0 +1,144 @@
+#root {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  background: #f0fdfa;
+  color: #1c1917;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.app h1 {
+  text-align: center;
+  color: #134e4a;
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+}
+
+.form-container, .student-list {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(13, 148, 136, 0.08);
+  margin-bottom: 30px;
+}
+
+.form-container h2, .student-list h2 {
+  font-size: 1.4rem;
+  color: #115e59;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ccfbf1;
+  padding-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #134e4a;
+  font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #99f6e4;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #0d9488;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
+
+.register-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0d9488;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.register-button:hover {
+  background-color: #0f766e;
+}
+
+.empty-message {
+  color: #7f8c8d;
+  font-style: italic;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  text-align: left;
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ccfbf1;
+  font-size: 0.95rem;
+}
+
+th {
+  background-color: #f0fdfa;
+  color: #134e4a;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #f0fdfa;
+}
+
+.remove-button {
+  background-color: #ea580c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.remove-button:hover {
+  background-color: #c2410c;
+}
