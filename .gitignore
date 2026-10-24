@@ -1,5 +1,9 @@
-node_modules
-dist
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+uploads/
+**/uploads/
 *.log
 .env
 .DS_Store

@@ -1,0 +1,19 @@
+{
+  "name": "prac11",
+  "version": "1.0.0",
+  "description": "Practical 11 - Blog Management System with CRUD, Auth and RBAC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  }
+}

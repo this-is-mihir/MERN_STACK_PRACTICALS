@@ -1,0 +1,16 @@
+{
+  "name": "prac8",
+  "version": "1.0.0",
+  "description": "Practical 08 - Express.js Routing, Middleware and Request Handling",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
